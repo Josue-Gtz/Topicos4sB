@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos", "Topicos\Topicos.csproj", "{065A66C8-BDEE-4602-94A9-18FF55C4D1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica3con", "Practica3con\Practica3con.csproj", "{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065A66C8-BDEE-4602-94A9-18FF55C4D1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065A66C8-BDEE-4602-94A9-18FF55C4D1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065A66C8-BDEE-4602-94A9-18FF55C4D1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065A66C8-BDEE-4602-94A9-18FF55C4D1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A89912F0-7946-449C-BBD8-FFAE4CA0C2AA}
+	EndGlobalSection
+EndGlobal

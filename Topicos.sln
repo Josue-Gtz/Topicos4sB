@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos", "Topicos\Topicos.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica3con", "Practica3con\Practica3con.csproj", "{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrencia280225222", "Concurrencia280225222\Concurrencia280225222.csproj", "{8A01CCFC-F8E7-4B80-8625-85F50ADABAF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7EB2B6-E8AB-4DE4-B0F9-04BE0D817412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A01CCFC-F8E7-4B80-8625-85F50ADABAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A01CCFC-F8E7-4B80-8625-85F50ADABAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A01CCFC-F8E7-4B80-8625-85F50ADABAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A01CCFC-F8E7-4B80-8625-85F50ADABAF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

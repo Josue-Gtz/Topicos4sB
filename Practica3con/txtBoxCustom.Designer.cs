@@ -1,6 +1,6 @@
 ﻿namespace Practica3con
 {
-    partial class txtBoxExtendido
+    partial class txtBoxCustom
     {
         /// <summary> 
         /// Variable del diseñador necesaria.
@@ -36,16 +36,18 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 22);
+            this.textBox1.Size = new System.Drawing.Size(239, 22);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
-            // txtBoxExtendido
+            // txtBoxCustom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.textBox1);
-            this.Name = "txtBoxExtendido";
-            this.Size = new System.Drawing.Size(240, 63);
+            this.Name = "txtBoxCustom";
+            this.Size = new System.Drawing.Size(239, 31);
             this.ResumeLayout(false);
             this.PerformLayout();
 

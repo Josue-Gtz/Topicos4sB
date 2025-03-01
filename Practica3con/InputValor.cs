@@ -9,17 +9,19 @@ using System.Windows.Forms;
 
 namespace Practica3con
 {
-    internal class InputValor
+    public class InputValor
     {
-        public bool OnlyNumbers(string texto)
+        
+        public bool Numeros(string texto)
         {
-
+            //regresa true si es numero
             return Regex.IsMatch(texto, @"^\d+$");
 
 
         }
-        public bool OnlyLetters(string texto)
+        public bool Letras(string texto)
         {
+            //regresa true si es negativo
             return Regex.IsMatch(texto, @"^[a-zA-Z]+$");
         }
 

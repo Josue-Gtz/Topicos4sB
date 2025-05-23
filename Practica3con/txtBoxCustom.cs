@@ -28,22 +28,21 @@ namespace Practica3con
            
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
             //solo deja poner letras
             if (e.KeyChar >= 65 && e.KeyChar <= 90 || e.KeyChar >= 97 && e.KeyChar <= 122)
             {
                 //pone el box normal
-                textBox1.BackColor = default(Color);
-                textBox1.BorderStyle = BorderStyle.Fixed3D;
+                textBox4.BackColor = default(Color);
+                textBox4.BorderStyle = BorderStyle.Fixed3D;
 
             }
             else
             {
                 //no deja escribir y lo pone amarillo
                 e.KeyChar = (char)0;
-                textBox1.BackColor = Color.Yellow;
-                textBox1.BorderStyle = BorderStyle.FixedSingle;
+                
 
             }
 

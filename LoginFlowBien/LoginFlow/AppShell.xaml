@@ -36,5 +36,6 @@
         Route="settings" />
         </Tab>
     </TabBar>
+   
 
 </Shell>

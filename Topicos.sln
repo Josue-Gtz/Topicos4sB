@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoBaseDatos1", "AccesoB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFlow", "LoginFlowBien\LoginFlow\LoginFlow.csproj", "{D9D71943-767E-AD30-509D-72E1FC31729B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica 1 Top", "Practica 1 Top\Practica 1 Top.csproj", "{3DD9D2F0-B701-4426-B867-7D603A1D5C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz dinamica galeria", "Interfaz dinamica galeria\Interfaz dinamica galeria.csproj", "{5AE8A437-35AE-4D52-820E-49F307FAEFCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,14 @@ Global
 		{D9D71943-767E-AD30-509D-72E1FC31729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D71943-767E-AD30-509D-72E1FC31729B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9D71943-767E-AD30-509D-72E1FC31729B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3DD9D2F0-B701-4426-B867-7D603A1D5C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD9D2F0-B701-4426-B867-7D603A1D5C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD9D2F0-B701-4426-B867-7D603A1D5C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD9D2F0-B701-4426-B867-7D603A1D5C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE8A437-35AE-4D52-820E-49F307FAEFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE8A437-35AE-4D52-820E-49F307FAEFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE8A437-35AE-4D52-820E-49F307FAEFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE8A437-35AE-4D52-820E-49F307FAEFCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

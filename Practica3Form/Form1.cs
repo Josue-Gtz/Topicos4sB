@@ -35,7 +35,7 @@ namespace Practica3Form
             bool validar = validarRFC.EsRFCValido(textBox1.Text);
             if (!validarRFC.EsRFCValido(rfc))
             {
-                MessageBox.Show("El RFC ingresado es inválido o está vacío"); // Muestra mensaje si el RFC no es válido.
+                MessageBox.Show("El RFC ingresado es inválido o está vacío"); 
             }
             else
             {

@@ -38,7 +38,7 @@ class Program
     {
         Console.WriteLine("Ingrese el número límite:");
         int N = int.Parse(Console.ReadLine());
-        int M = 4; // Número de hilos
+        int M = 4; 
         int rango = N / M;
         Thread[] hilos = new Thread[M];
         Stopwatch stopwatch = Stopwatch.StartNew();
@@ -59,23 +59,18 @@ class Program
 
 
 
-        //Calcular de manera secuencial
         stopwatch.Start();
-        //se define la variable
         int sumaSEC = 0;
         stopwatch.Start(); 
-        //Se abre un ciclo donde recorre desde el 1 hasta el numero N
         for (int j = 1; j <= N; j++)
         {
             if (EsPrimo(j))
             {
-                //Suma cada numero que es primo
                 sumaSEC += j;
             }
         }
 
         stopwatch.Stop();
-        //Lo escribe de nuevo
         Console.WriteLine($"Suma total de números primos de manera secuencial hasta {N}: {sumaSEC}");
         Console.WriteLine($"Tiempo de ejecución: {stopwatch.ElapsedMilliseconds} ms");
     }

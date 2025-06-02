@@ -14,7 +14,7 @@ namespace Topicos
     {
         private Button btnAddControls;
         private List<Button> dynamicButtons = new List<Button>();
-        private List<TextBox> dynamicTextBoxes = new List<TextBox>();
+        private List<TextBox> dynamicTextBoxes = new List<TextBox>(); // zrzz
         private int controlCounter = 1;
         public Form1()
         {
